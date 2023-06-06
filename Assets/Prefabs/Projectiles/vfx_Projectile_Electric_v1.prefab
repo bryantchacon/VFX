@@ -14579,9 +14579,9 @@ MonoBehaviour:
   speed: 15
   accuracy: 100
   fireRate: 1
-  muzzlePrefab: {fileID: 9119717949602279461, guid: 5313a257e32b7704c969c534242f7c81,
+  muzzlePrefab: {fileID: 3357341625516713218, guid: 648878a8f40004849a10b1993ef50b71,
     type: 3}
-  hitPrefab: {fileID: 4579185800551498132, guid: 64d880d940e8b6a4ebe35312195f9f09,
+  hitPrefab: {fileID: 3596245736319804357, guid: e8cb017e3281d37449d0b0a3ca50b0ce,
     type: 3}
   shotSFX: {fileID: 0}
   hitSFX: {fileID: 0}
