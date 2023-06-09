@@ -68,4 +68,13 @@
    - Para reducir más los batches los particle systems que usen meshes deben ir en un order layer diferente de los demas que no usan meshes y asi no se rompan los draw call.
 
 
+## 6. VFX Graph
+|**PARTICLE SYSTEM (CPU)**||**VFX GRAPH (GPU)**||
+| :-: | :-: | :- | :- |
+|**PROS**|**CONS**|**PROS**|**CONS**|
+|<p>- Buenas colisiones en fisicas</p><p></p><p>- Generación y control de luces</p><p></p><p>- Funciona en cualquier plataforma</p><p></p><p>- Workflow rapido</p>|<p>- Miles de particulas</p><p></p><p>- Propiedades de shaders (No muy sencillo)</p>|<p>- Millones de particulas</p><p></p><p>- Procesamiento paralelo</p><p></p><p>- Propiedades de shaders (Sencillo)</p><p></p><p>- Crear decals facilmente</p><p></p><p>- Heat distortion (HDRP only ?)</p><p></p><p>- Parametros modificables</p><p></p><p>- Modular</p>|<p>- Malas colisiones en fisicas</p><p></p><p>- No tiene luces (por ahora)</p><p></p><p>- No funciona en cualquier plataforma (aun)</p><p></p><p>- Workflow lento</p>|
+
+![VFX Graph](https://github.com/bryantchacon/vfx/assets/36392260/4cb52df7-8adc-4f06-8f7b-fe0f02075f58)
+
+
 > Unity 2021.3.4f1
