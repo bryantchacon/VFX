@@ -74,6 +74,16 @@
 |**PROS**|**CONS**|**PROS**|**CONS**|
 |<p>- Buenas colisiones en fisicas</p><p></p><p>- Generación y control de luces</p><p></p><p>- Funciona en cualquier plataforma</p><p></p><p>- Workflow rapido</p>|<p>- Miles de particulas</p><p></p><p>- Propiedades de shaders (No muy sencillo)</p>|<p>- Millones de particulas</p><p></p><p>- Procesamiento paralelo</p><p></p><p>- Propiedades de shaders (Sencillo)</p><p></p><p>- Crear decals facilmente</p><p></p><p>- Heat distortion (HDRP only ?)</p><p></p><p>- Parametros modificables</p><p></p><p>- Modular</p>|<p>- Malas colisiones en fisicas</p><p></p><p>- No tiene luces (por ahora)</p><p></p><p>- No funciona en cualquier plataforma (aun)</p><p></p><p>- Workflow lento</p>|
 
+
+## 7. Partes de VFX Graph
+1. Spawn: Maneja la cantidad de partículas por segundo y si se generaran constantemente o como una rafaga.
+
+2. Initialize Particle: Maneja la capacidad del sistema de particulas, y como se inicializa CADA una, ademas de su velocidad y lifetime.
+
+3. Udate Particle: Actualiza constantemente los atributos de la particula despues de inicializarla, funciona como el Update() de C# en Unity.
+
+4. Output Particle Quad: Renderiza la particula y controla su apariencia, como su orientacion, tamaño y color a travez del tiempo, y da control directo en las propiedades del shader.
+
 ![VFX Graph](https://github.com/bryantchacon/vfx/assets/36392260/4cb52df7-8adc-4f06-8f7b-fe0f02075f58)
 
 
