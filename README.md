@@ -76,13 +76,13 @@
 
 
 ## 7. Partes de VFX Graph
-1. Spawn: Maneja la cantidad de partículas por segundo y si se generaran constantemente o como una ráfaga.
+1. Spawn: Maneja la cantidad de partículas por segundo y si se generaran constantemente o como una ráfaga, etc.
 
-2. Initialize Particle: Maneja la capacidad del sistema de partículas, y como se inicializa CADA una, además de su velocidad y lifetime.
+2. Initialize Particle: Maneja la capacidad del sistema de partículas, y como se inicializa CADA una, además de su velocidad, lifetime, etc.
 
-3. Udate Particle: Actualiza constantemente los atributos de la partícula después de inicializarla, funciona como el Update() de C# en Unity.
+3. Udate Particle: Actualiza constantemente los atributos de la partícula después de inicializarla, etc. Funciona como el Update() de C# en Unity.
 
-4. Output Particle Quad: Renderiza la partícula y controla su apariencia, como su orientación, tamaño y color a travéz del tiempo, y da control directo en las propiedades del shader.
+4. Output Particle Quad: Renderiza la partícula y controla su apariencia, como su orientación, tamaño y color a travéz del tiempo, y da control directo en las propiedades del shader, etc.
 
 ![VFX Graph](https://github.com/bryantchacon/vfx/assets/36392260/4cb52df7-8adc-4f06-8f7b-fe0f02075f58)
 
