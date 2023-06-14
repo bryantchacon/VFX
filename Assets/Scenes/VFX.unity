@@ -1979,7 +1979,7 @@ PrefabInstance:
     - target: {fileID: 9021247222526539197, guid: 6c96b088a579b0d46962215c8d229d3f,
         type: 3}
       propertyPath: m_Name
-      value: vfx_Orb_Explosion
+      value: vfx_Orb
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c96b088a579b0d46962215c8d229d3f, type: 3}
