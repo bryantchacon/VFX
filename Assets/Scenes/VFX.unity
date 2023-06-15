@@ -1921,6 +1921,19 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 91206609, guid: 6c96b088a579b0d46962215c8d229d3f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1339248602, guid: 6c96b088a579b0d46962215c8d229d3f, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021247222240307745, guid: 6c96b088a579b0d46962215c8d229d3f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9021247222526539194, guid: 6c96b088a579b0d46962215c8d229d3f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1980,6 +1993,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: vfx_Orb
+      objectReference: {fileID: 0}
+    - target: {fileID: 9021247222526539197, guid: 6c96b088a579b0d46962215c8d229d3f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c96b088a579b0d46962215c8d229d3f, type: 3}
