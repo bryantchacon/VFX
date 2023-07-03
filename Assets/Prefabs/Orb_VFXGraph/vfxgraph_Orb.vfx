@@ -78,18 +78,6 @@ MonoBehaviour:
     - model: {fileID: 8926484042661614662}
       id: 3
       isStickyNote: 0
-    - model: {fileID: 8926484042661614687}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614691}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614693}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614686}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661615064}
       id: 0
       isStickyNote: 0
@@ -101,30 +89,6 @@ MonoBehaviour:
       isStickyNote: 0
     - model: {fileID: 8926484042661614680}
       id: 2
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614589}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614646}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614640}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661614591}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615079}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615080}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615084}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615086}
-      id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615103}
       id: 0
@@ -205,28 +169,13 @@ MonoBehaviour:
     - model: {fileID: 8926484042661615650}
       id: 0
       isStickyNote: 0
-    - model: {fileID: 8926484042661615652}
-      id: 0
-      isStickyNote: 0
     - model: {fileID: 8926484042661615654}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 0}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615680}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615683}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615685}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615688}
-      id: 0
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615689}
       id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615720}
@@ -246,9 +195,6 @@ MonoBehaviour:
       isStickyNote: 0
     - model: {fileID: 8926484042661614635}
       id: 12
-      isStickyNote: 0
-    - model: {fileID: 8926484042661615708}
-      id: 0
       isStickyNote: 0
     - model: {fileID: 8926484042661615712}
       id: 0
@@ -353,20 +299,6 @@ MonoBehaviour:
   m_UISuperCollapsed: 0
   m_UIInfos: {fileID: 114340500867371532}
   m_ParameterInfo:
-  - name: YOffset
-    path: YOffset
-    tooltip: 
-    sheetType: m_Float
-    realType: Single
-    defaultValue:
-      m_Type:
-        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
-          PublicKeyToken=b77a5c561934e089
-      m_SerializableObject: 2
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: Lifetime
     path: Lifetime
     tooltip: 
@@ -405,6 +337,20 @@ MonoBehaviour:
         m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
           PublicKeyToken=b77a5c561934e089
       m_SerializableObject: 1
+    min: -Infinity
+    max: Infinity
+    enumValues: []
+    descendantCount: 0
+  - name: YOffset
+    path: YOffset
+    tooltip: 
+    sheetType: m_Float
+    realType: Single
+    defaultValue:
+      m_Type:
+        m_SerializableType: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: 2
     min: -Infinity
     max: Infinity
     enumValues: []
@@ -1684,7 +1630,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614636}
   m_ExposedName: YOffset
   m_Exposed: 1
-  m_Order: 0
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -1826,7 +1772,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614639}
   m_ExposedName: Lifetime
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: 
   m_Min:
     m_Type:
@@ -1986,7 +1932,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614643}
   m_ExposedName: Size
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 2
   m_Category: 
   m_Min:
     m_Type:
@@ -8066,7 +8012,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615004}
   m_ExposedName: 2ndLifetime
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: 
   m_Min:
     m_Type:
@@ -12764,7 +12710,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 0
+  m_UICollapsed: 1
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
