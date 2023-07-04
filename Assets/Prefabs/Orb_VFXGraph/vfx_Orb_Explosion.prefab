@@ -86,7 +86,7 @@ VisualEffect:
       - m_Value: 12
         m_Name: ShockwaveSize
         m_Overridden: 1
-      - m_Value: 0.4
+      - m_Value: 0.6
         m_Name: SparksLifetime
         m_Overridden: 1
       - m_Value: 2
