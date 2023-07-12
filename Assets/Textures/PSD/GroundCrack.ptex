@@ -1,0 +1,528 @@
+{
+	"connections": [
+		{
+			"from": "voronoi2",
+			"from_port": 1,
+			"to": "tones",
+			"to_port": 0
+		},
+		{
+			"from": "tones",
+			"from_port": 0,
+			"to": "invert",
+			"to_port": 0
+		},
+		{
+			"from": "invert",
+			"from_port": 0,
+			"to": "tones_2",
+			"to_port": 0
+		},
+		{
+			"from": "tones_2",
+			"from_port": 0,
+			"to": "circle_map",
+			"to_port": 0
+		},
+		{
+			"from": "circle_map",
+			"from_port": 0,
+			"to": "shape",
+			"to_port": 0
+		},
+		{
+			"from": "shape_2",
+			"from_port": 0,
+			"to": "warp",
+			"to_port": 0
+		},
+		{
+			"from": "fbm2",
+			"from_port": 0,
+			"to": "warp",
+			"to_port": 1
+		},
+		{
+			"from": "shape",
+			"from_port": 0,
+			"to": "math",
+			"to_port": 0
+		},
+		{
+			"from": "warp",
+			"from_port": 0,
+			"to": "tonality",
+			"to_port": 0
+		},
+		{
+			"from": "tonality",
+			"from_port": 0,
+			"to": "math",
+			"to_port": 1
+		},
+		{
+			"from": "invert",
+			"from_port": 0,
+			"to": "tones_3",
+			"to_port": 0
+		},
+		{
+			"from": "circle_map_2",
+			"from_port": 0,
+			"to": "shape_3",
+			"to_port": 0
+		},
+		{
+			"from": "tones_3",
+			"from_port": 0,
+			"to": "circle_map_2",
+			"to_port": 0
+		},
+		{
+			"from": "shape_3",
+			"from_port": 0,
+			"to": "math_2",
+			"to_port": 0
+		},
+		{
+			"from": "tonality",
+			"from_port": 0,
+			"to": "math_2",
+			"to_port": 1
+		},
+		{
+			"from": "math",
+			"from_port": 0,
+			"to": "math_3",
+			"to_port": 0
+		},
+		{
+			"from": "math_2",
+			"from_port": 0,
+			"to": "math_4",
+			"to_port": 0
+		},
+		{
+			"from": "math_4",
+			"from_port": 0,
+			"to": "math_3",
+			"to_port": 1
+		},
+		{
+			"from": "math_3",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 0
+		},
+		{
+			"from": "math_3",
+			"from_port": 0,
+			"to": "Material",
+			"to_port": 7
+		}
+	],
+	"label": "Graph",
+	"longdesc": "",
+	"name": "1766",
+	"node_position": {
+		"x": 0,
+		"y": 0
+	},
+	"nodes": [
+		{
+			"export_last_target": "Unity/3D",
+			"export_paths": {
+				"Unity/3D": "C:/Users/bryan/Documents/VFX/VFX/Assets/Textures/GroundMark02"
+			},
+			"name": "Material",
+			"node_position": {
+				"x": 940,
+				"y": -200
+			},
+			"parameters": {
+				"albedo_color": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"ao": 1,
+				"depth_scale": 0.5,
+				"emission_energy": 1,
+				"flags_transparent": true,
+				"metallic": 0,
+				"normal": 1,
+				"roughness": 1,
+				"size": 11,
+				"sss": 1
+			},
+			"seed_int": 0,
+			"type": "material"
+		},
+		{
+			"name": "voronoi2",
+			"node_position": {
+				"x": -1200,
+				"y": 0
+			},
+			"parameters": {
+				"intensity": 1,
+				"randomness": 1,
+				"scale_x": 6,
+				"scale_y": 6,
+				"stretch_x": 1,
+				"stretch_y": 1
+			},
+			"seed_int": 0,
+			"type": "voronoi2"
+		},
+		{
+			"name": "tones",
+			"node_position": {
+				"x": -940,
+				"y": 0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.15,
+					"g": 0.15,
+					"r": 0.15,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "invert",
+			"node_position": {
+				"x": -700,
+				"y": 0
+			},
+			"parameters": {
+
+			},
+			"seed_int": 0,
+			"type": "invert"
+		},
+		{
+			"name": "tones_2",
+			"node_position": {
+				"x": -560,
+				"y": 0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.8875,
+					"g": 0.8875,
+					"r": 0.8875,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0,
+					"b": 0.53125,
+					"g": 0.53125,
+					"r": 0.53125,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "circle_map",
+			"node_position": {
+				"x": -320,
+				"y": 0
+			},
+			"parameters": {
+				"radius": 1,
+				"repeat": 2
+			},
+			"seed_int": 0,
+			"type": "circle_map"
+		},
+		{
+			"name": "shape",
+			"node_position": {
+				"x": -100,
+				"y": 0
+			},
+			"parameters": {
+				"edge": 0.9,
+				"radius": 1,
+				"shape": 0,
+				"sides": 2
+			},
+			"seed_int": 0,
+			"type": "shape"
+		},
+		{
+			"name": "fbm2",
+			"node_position": {
+				"x": -520,
+				"y": -260
+			},
+			"parameters": {
+				"folds": 0,
+				"iterations": 5,
+				"noise": 0,
+				"offset": 0,
+				"persistence": 0.5,
+				"scale_x": 3,
+				"scale_y": 3
+			},
+			"seed_int": 0,
+			"type": "fbm2"
+		},
+		{
+			"name": "shape_2",
+			"node_position": {
+				"x": -440,
+				"y": -420
+			},
+			"parameters": {
+				"edge": 0.8,
+				"radius": 0.7,
+				"shape": 0,
+				"sides": 2
+			},
+			"seed_int": 0,
+			"type": "shape"
+		},
+		{
+			"name": "warp",
+			"node_position": {
+				"x": -260,
+				"y": -360
+			},
+			"parameters": {
+				"amount": 2.78,
+				"eps": 0.005,
+				"mode": 0
+			},
+			"seed_int": 0,
+			"type": "warp"
+		},
+		{
+			"name": "math",
+			"node_position": {
+				"x": 120,
+				"y": -200
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0,
+				"default_in2": 0,
+				"op": 1
+			},
+			"seed_int": 0,
+			"type": "math"
+		},
+		{
+			"name": "tonality",
+			"node_position": {
+				"x": -80,
+				"y": -360
+			},
+			"parameters": {
+				"curve": {
+					"points": [
+						{
+							"ls": 0,
+							"rs": -0.733548,
+							"x": 0,
+							"y": 0
+						},
+						{
+							"ls": 1.995683,
+							"rs": -0,
+							"x": 1,
+							"y": 1
+						}
+					],
+					"type": "Curve"
+				}
+			},
+			"seed_int": 0,
+			"type": "tonality"
+		},
+		{
+			"name": "tones_3",
+			"node_position": {
+				"x": -560,
+				"y": 180
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.35625,
+					"g": 0.35625,
+					"r": 0.35625,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "shape_3",
+			"node_position": {
+				"x": -100,
+				"y": 180
+			},
+			"parameters": {
+				"edge": 0.9,
+				"radius": 1,
+				"shape": 0,
+				"sides": 2
+			},
+			"seed_int": 0,
+			"type": "shape"
+		},
+		{
+			"name": "circle_map_2",
+			"node_position": {
+				"x": -320,
+				"y": 180
+			},
+			"parameters": {
+				"radius": 1,
+				"repeat": 2
+			},
+			"seed_int": 0,
+			"type": "circle_map"
+		},
+		{
+			"name": "math_2",
+			"node_position": {
+				"x": 120,
+				"y": 0
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0,
+				"default_in2": 0,
+				"op": 1
+			},
+			"seed_int": 0,
+			"type": "math"
+		},
+		{
+			"name": "math_3",
+			"node_position": {
+				"x": 600,
+				"y": -200
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0,
+				"default_in2": 0,
+				"op": 0
+			},
+			"seed_int": 0,
+			"type": "math"
+		},
+		{
+			"name": "math_4",
+			"node_position": {
+				"x": 360,
+				"y": 0
+			},
+			"parameters": {
+				"clamp": false,
+				"default_in1": 0,
+				"default_in2": 0.7,
+				"op": 2
+			},
+			"seed_int": 0,
+			"type": "math"
+		}
+	],
+	"parameters": {
+
+	},
+	"seed_int": 0,
+	"shortdesc": "",
+	"type": "graph"
+}
