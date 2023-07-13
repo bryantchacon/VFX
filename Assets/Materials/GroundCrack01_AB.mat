@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Crack01_AB
+  m_Name: GroundCrack01_AB
   m_Shader: {fileID: -6465566751694194690, guid: 09f44bf868c7d1e4780ebca9be2ff862,
     type: 3}
   m_ValidKeywords: []
