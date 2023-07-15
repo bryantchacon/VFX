@@ -43,18 +43,6 @@
 			"to_port": 7
 		},
 		{
-			"from": "shape_2",
-			"from_port": 0,
-			"to": "blend2",
-			"to_port": 1
-		},
-		{
-			"from": "math",
-			"from_port": 0,
-			"to": "blend2",
-			"to_port": 0
-		},
-		{
 			"from": "radial_gradient",
 			"from_port": 0,
 			"to": "blend2_3",
@@ -65,11 +53,35 @@
 			"from_port": 0,
 			"to": "blend2_3",
 			"to_port": 1
+		},
+		{
+			"from": "shape_2",
+			"from_port": 0,
+			"to": "tones",
+			"to_port": 0
+		},
+		{
+			"from": "math",
+			"from_port": 0,
+			"to": "tones_2",
+			"to_port": 0
+		},
+		{
+			"from": "tones",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 1
+		},
+		{
+			"from": "tones_2",
+			"from_port": 0,
+			"to": "blend2",
+			"to_port": 0
 		}
 	],
 	"label": "Graph",
 	"longdesc": "",
-	"name": "@@784",
+	"name": "784",
 	"node_position": {
 		"x": 0,
 		"y": 0
@@ -78,12 +90,12 @@
 		{
 			"export_last_target": "Unity/3D",
 			"export_paths": {
-				"Unity/3D": "C:/Users/bryan/Documents/VFX/VFX/Assets/Textures/GroundImpact01"
+				"Unity/3D": "C:/Users/bryan/Documents/VFX/VFX/Assets/Textures/GroundImpact03"
 			},
 			"name": "Material",
 			"node_position": {
-				"x": 500,
-				"y": 40
+				"x": 600,
+				"y": 0
 			},
 			"parameters": {
 				"albedo_color": {
@@ -115,7 +127,7 @@
 			"parameters": {
 				"intensity": 1.4,
 				"randomness": 1,
-				"scale_x": 28,
+				"scale_x": 32,
 				"scale_y": 4,
 				"stretch_x": 1,
 				"stretch_y": 1
@@ -131,7 +143,7 @@
 			},
 			"parameters": {
 				"param0": 11,
-				"param1": 40,
+				"param1": 48,
 				"param2": 0
 			},
 			"seed_int": 0,
@@ -144,8 +156,8 @@
 				"y": 0
 			},
 			"parameters": {
-				"edge": 0.7,
-				"radius": 1,
+				"edge": 0.73,
+				"radius": 1.06,
 				"shape": 0,
 				"sides": 2
 			},
@@ -156,11 +168,11 @@
 			"generic_size": 1,
 			"name": "blend2",
 			"node_position": {
-				"x": 60,
-				"y": 100
+				"x": 320,
+				"y": 60
 			},
 			"parameters": {
-				"amount1": 0.7,
+				"amount1": 0.9,
 				"blend_type1": 2
 			},
 			"seed_int": 0,
@@ -175,7 +187,7 @@
 			"parameters": {
 				"iterations": 8,
 				"persistence": 0.5,
-				"scale_x": 24,
+				"scale_x": 19,
 				"scale_y": 1
 			},
 			"seed_int": 0,
@@ -242,7 +254,7 @@
 			"parameters": {
 				"clamp": false,
 				"default_in1": 0,
-				"default_in2": 1.2,
+				"default_in2": 1.8,
 				"op": 6
 			},
 			"seed_int": 0,
@@ -274,6 +286,98 @@
 			},
 			"seed_int": 0,
 			"type": "blend2"
+		},
+		{
+			"name": "tones",
+			"node_position": {
+				"x": -20,
+				"y": 0
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.7125,
+					"g": 0.7125,
+					"r": 0.7125,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
+		},
+		{
+			"name": "tones_2",
+			"node_position": {
+				"x": 60,
+				"y": 240
+			},
+			"parameters": {
+				"in_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"in_mid": {
+					"a": 0.5,
+					"b": 0.4,
+					"g": 0.4,
+					"r": 0.4,
+					"type": "Color"
+				},
+				"in_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				},
+				"out_max": {
+					"a": 1,
+					"b": 1,
+					"g": 1,
+					"r": 1,
+					"type": "Color"
+				},
+				"out_min": {
+					"a": 0,
+					"b": 0,
+					"g": 0,
+					"r": 0,
+					"type": "Color"
+				}
+			},
+			"seed_int": 0,
+			"type": "tones"
 		}
 	],
 	"parameters": {
