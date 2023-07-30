@@ -1231,6 +1231,75 @@ Transform:
   m_Father: {fileID: 186587528}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &852902039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4134558219536352741, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_Name
+      value: vfx_StylizedExplosion_Green_v1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134558219536352742, guid: 71bc3860b6f97624499df8994597ed5d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71bc3860b6f97624499df8994597ed5d, type: 3}
 --- !u!114 &1100561687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1711,7 +1780,7 @@ PrefabInstance:
     - target: {fileID: 4134558219536352741, guid: 4f4e0c6e51bc6fd488263c68ccd3501e,
         type: 3}
       propertyPath: m_Name
-      value: vfx_StylizedExplosion_v1
+      value: vfx_StylizedExplosion_Orange_v1
       objectReference: {fileID: 0}
     - target: {fileID: 4134558219536352742, guid: 4f4e0c6e51bc6fd488263c68ccd3501e,
         type: 3}
