@@ -5093,7 +5093,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.33266667, b: 0.089999974, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -9047,23 +9047,23 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.39866668, b: 0.18, a: 1}
-        key1: {r: 0.35, g: 0.2857422, b: 0.2625, a: 0.5882353}
-        key2: {r: 0.33490366, g: 0.27341744, b: 0.25117773, a: 0}
+        key0: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
+        key1: {r: 0.30087447, g: 0.36078432, b: 0.27058825, a: 0.5686275}
+        key2: {r: 0.21571057, g: 0.24313726, b: 0.18431373, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 3277
-        ctime1: 22937
-        ctime2: 45875
+        ctime0: 3470
+        ctime1: 21974
+        ctime2: 44525
         ctime3: 65535
         ctime4: 0
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 3277
+        atime0: 2506
         atime1: 65535
         atime2: 0
         atime3: 0
@@ -14835,7 +14835,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.2627451, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -19705,7 +19705,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.24183007, b: 0.09019607, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -34315,7 +34315,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.2627451, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -39185,7 +39185,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.43883333, b: 0.089999974, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -44055,7 +44055,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.31764707, b: 0.0627451, a: 1}
+      maxColor: {r: 0.49803922, g: 1, b: 0.0627451, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -50065,7 +50065,7 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.31764707, b: 0.0627451, a: 1}
+        key0: {r: 0.49875635, g: 1, b: 0.062745094, a: 1}
         key1: {r: 0, g: 0, b: 0, a: 1}
         key2: {r: 0, g: 0, b: 0, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
@@ -50073,9 +50073,9 @@ ParticleSystem:
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 13107
-        ctime1: 42598
-        ctime2: 0
+        ctime0: 11758
+        ctime1: 45682
+        ctime2: 61487
         ctime3: 0
         ctime4: 0
         ctime5: 0
@@ -58665,7 +58665,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.43883333, b: 0.089999974, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -63535,7 +63535,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.8, g: 0.25098038, b: 0.04705882, a: 1}
+      maxColor: {r: 0.26666668, g: 0.53333336, b: 0.03137255, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -68405,7 +68405,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.26, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -73275,7 +73275,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.33266667, b: 0.089999974, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -77044,7 +77044,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.35
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -77229,23 +77229,23 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.39866668, b: 0.18, a: 1}
-        key1: {r: 0.35, g: 0.2857422, b: 0.2625, a: 0.5882353}
-        key2: {r: 0.33490366, g: 0.27341744, b: 0.25117773, a: 0}
+        key0: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
+        key1: {r: 0.30087447, g: 0.36078432, b: 0.27058825, a: 0.5686275}
+        key2: {r: 0.21571057, g: 0.24313726, b: 0.18431373, a: 0}
         key3: {r: 0, g: 0, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
         key7: {r: 0, g: 0, b: 0, a: 0}
-        ctime0: 3277
-        ctime1: 22937
-        ctime2: 45875
+        ctime0: 3470
+        ctime1: 21974
+        ctime2: 44525
         ctime3: 65535
         ctime4: 0
         ctime5: 0
         ctime6: 0
         ctime7: 0
-        atime0: 3277
+        atime0: 2506
         atime1: 65535
         atime2: 0
         atime3: 0
@@ -78147,7 +78147,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.64, g: 0.58453333, b: 0.5568, a: 1}
+      maxColor: {r: 0.59607846, g: 0.6392157, b: 0.5568628, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -83017,7 +83017,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.2627451, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -87887,7 +87887,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.2627451, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -97353,7 +97353,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e97949f13df3294bb8797d98e76726c, type: 2}
+  - {fileID: 2100000, guid: 0b8b9b8d438b7c4459b2d06820f2cb07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -97627,7 +97627,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.24183007, b: 0.09019607, a: 1}
+      maxColor: {r: 0.5137255, g: 1, b: 0.09019608, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -102497,7 +102497,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.64, g: 0.58453333, b: 0.5568, a: 1}
+      maxColor: {r: 0.59607846, g: 0.6392157, b: 0.5568628, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -107367,7 +107367,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.64, g: 0.58453333, b: 0.5568, a: 1}
+      maxColor: {r: 0.59607846, g: 0.6392157, b: 0.5568628, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -121703,7 +121703,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e97949f13df3294bb8797d98e76726c, type: 2}
+  - {fileID: 2100000, guid: 0b8b9b8d438b7c4459b2d06820f2cb07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126847,7 +126847,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.64, g: 0.58453333, b: 0.5568, a: 1}
+      maxColor: {r: 0.59607846, g: 0.6392157, b: 0.5568628, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -131717,7 +131717,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.36, g: 0.17364708, b: 0.09411765, a: 1}
+      maxColor: {r: 0.21960784, g: 0.36078432, b: 0.09411765, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -136587,7 +136587,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 1, g: 0.482, b: 0.2627451, a: 1}
+      maxColor: {r: 0.6039216, g: 1, b: 0.25882354, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -146053,7 +146053,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e97949f13df3294bb8797d98e76726c, type: 2}
+  - {fileID: 2100000, guid: 0b8b9b8d438b7c4459b2d06820f2cb07, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
